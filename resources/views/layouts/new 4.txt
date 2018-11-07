@@ -1,0 +1,14 @@
+Bonjour, 
+je viens de mettre en ligne une première version de Iaso physio. cela a pris du temps car je voulais
+que vous puissiez fiare un test fonctionnel quelque peut complet.
+
+Dans cette version il est possible : 
+- en tant que patient : de faire une réservation tout en créant son compte 
+ceci en choisissant le cabinet au quel on souhaite être affillier 
+(Qst : le patient ne peut pas changer cela apres. est ce qu'on devrai permettre qu'un patient change de cabinet ?)
+	unefois la réservation du client fait il abouti dans son profile ou il peut
+	- visualiser ses RDV
+	- faire une nouvelle réservation (si l'autre réservation est déja passé c'est à dire que le thérapeute a valider la séance et la marqué comme passé)
+	- modifier son profile et renseigner les informations sur (N° AVS et autre)
+ reste à faire : 
+	- le contact avec le médecin ou le service client du cabinet 

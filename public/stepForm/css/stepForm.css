@@ -1,0 +1,131 @@
+
+.btn-green {background-color: #4CAF50;} /* Green */
+.btn-blue {background-color: #008CBA;} /* Blue */
+.btn-red {background-color: #f44336;} /* Red */
+.btn-white {background-color: #e7e7e7; color: black;} /* Gray */
+.btn-gray {background-color: #555555;} /* Black */
+
+
+.btn-margin{
+    margin-right: 20px;
+}
+
+.btn-step-form{
+    width: 200px;
+}
+
+.step-form{
+
+}
+.step-form .tabs-section-nav{
+
+}
+.step-form .tabs-section-nav .nav-tabs {
+    border-bottom: none !important;
+}
+.step-form .tabs-section-nav .nav-tabs .nav-item {
+    height: 80px !important;
+    padding: 22px !important;
+    border-bottom: 1px solid #eaeaea;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 33.3333333333333%;
+    text-align: center;
+}
+.step-form .tabs-section-nav .nav-tabs .nav-item.active {
+    border-bottom: none;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-top: 4px solid #ea8124;
+}
+.step-form .tabs-section-nav .nav-tabs .nav-item {
+    height: 80px !important;
+    padding: 22px !important;
+}
+.step-form .tabs-section-nav .nav-link-in {
+
+}
+.help-block2 {
+    color: #808185;
+}
+
+.padding-left-step-form{
+    padding-left: 10%;
+}
+.step-form{
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 35px;
+    box-shadow: 9px 3px 5px rgba(0, 0, 0, 0.02), 0 3px 10px rgba(0, 0, 0, 0.09);
+}
+.tab-content{
+    border-right: 1px solid #eaeaea;
+}
+.tab-pane{
+    padding: 20px;
+}
+/********************************** custom radio button ********************************************************/
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/********************************** custom radio button end *****************************************************/
